@@ -4,7 +4,7 @@
 ### Getting Started
 Clone the repository
 ```zsh
-git clone https://github.com/Neddoo/orstatus.git
+git clone https://github.com/Neddoo/ORStatus.git
 ```
 Install the dependencies
 ```zsh
