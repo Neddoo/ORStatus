@@ -71,7 +71,7 @@
 						<div class="flex flex-col sm:flex-row space-y-2 sm:space-y-0 justify-between">
 							<p id="serverIP">{data.hostname}</p>
 							<button
-								class="border-neutral-600 border-2 rounded-lg px-3"
+								class="border-neutral-600 border-2 my-auto text-base rounded-lg px-3"
 								id="copybtn"
 								on:click={copyContent}>Copy!</button
 							>
