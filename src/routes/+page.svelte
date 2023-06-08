@@ -27,13 +27,6 @@
 <main class="p-5">
 	<div class="flex flex-row justify-between">
 		<div class="flex flex-row">
-			<div class="hidden lg:block">
-				<img
-					class="w-20 h-20"
-					src="https://cdn.discordapp.com/icons/803581115024670740/db84373774700b380b4fee2a5209191e.webp?size=96"
-					alt="Logo"
-				/>
-			</div>
 			<div class="flex-col space-y-2 mb-5 my-auto lg:ml-2">
 				<h1 class="font-black text-3xl">Origin Realms Status Tracker</h1>
 				<p class="text-lg opacity-50">
@@ -69,7 +62,7 @@
 					<h3 class="text-xl font-bold">IP</h3>
 					<div class="text-xl opacity-75">
 						<div class="flex flex-col sm:flex-row space-y-2 sm:space-y-0 justify-between">
-							<p id="serverIP">{data.hostname}</p>
+							<p id="serverIP">play.originrealms.com</p>
 							<button
 								class="border-neutral-600 border-2 my-auto text-base rounded-lg px-3"
 								id="copybtn"
